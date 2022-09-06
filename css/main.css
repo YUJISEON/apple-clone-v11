@@ -14,7 +14,7 @@ p { line-height: 1.6; }
 
 .scroll_section { padding-top: 50vh; }
 #scroll_section_0 h1 { font-size: 4rem; text-align: center;}
-.main_messge {display: flex; justify-content: center; align-items: center; height: 3em; font-size: 2.5rem; }
+.main_messge { opacity:0; display: flex; top: 35vh;  justify-content: center; align-items: center; height: 3em; font-size: 2.5rem; }
 .main_messge p { line-height: 1.2; font-weight: 900; text-align: center;}
 
 .description { font-size: 1.2rem; color: #888; padding: 0 1rem; width: 100%; max-width: 1000px; margin: 0 auto; }
@@ -31,7 +31,7 @@ p { line-height: 1.6; }
 
 .footer { height: 7rem; display: flex; justify-content: center; align-items: center; color: #fff; background: darkorange;}
 
-.sticky-elem { display: none; position: fixed; top: 0; left: 0; width: 100%; }
+.sticky-elem { display: none; position: fixed; /*top: 0;*/ left: 0; width: 100%; }
 #show_scene_0 #scroll_section_0 .sticky-elem,
 #show_scene_1 #scroll_section_1 .sticky-elem,
 #show_scene_2 #scroll_section_2 .sticky-elem,

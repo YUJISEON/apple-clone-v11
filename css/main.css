@@ -25,6 +25,9 @@ p { line-height: 1.6; }
 .sticky-elem.desc_messge { font-weight: 700; width: 45%; }
 .pin { width: 1px; height: 100px; background: rgb(29, 29, 31); }
 
+#scroll_section_2 .b {top: 10%; left: 40% }
+#scroll_section_2 .c {top: 15%; left: 45% }
+
 .mid-message { font-size: 2rem; color: #888; padding: 0 1rem; width: 100%; max-width: 1000px; margin: 0 auto;  }
 .mid-message strong { color: rgb(29, 29, 31);}
 .canvas-caption { /* text-align: center; */ width: 100%; max-width: 1000px; margin: 0 auto; font-size: 1.2rem; color: #888; padding: 0 1rem}
@@ -45,6 +48,8 @@ p { line-height: 1.6; }
     #scroll_section_2 .main_messge { font-size: 6vw }
     .main_messge small { font-size: 1.5vw }
     .desc_messge { width: 20%; }
+    #scroll_section_2 .b {top: 20%; left: 53% }
+    #scroll_section_2 .c {left: 55% }
     .mid-message { font-size: 4vw }
     .canvas-caption { font-size: 2rem }
 }

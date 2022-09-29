@@ -12,7 +12,7 @@ p { line-height: 1.6; }
 .local_nav_links .product_name { margin-right: auto; font-size: 1.2rem; font-weight: 900;}
 .local_nav_links a:not(.product_name) { margin-left: 2em; font-size: 0.8em; }
 
-.scroll_section { padding-top: 50vh; }
+.scroll_section { position: relative; padding-top: 50vh; }
 #scroll_section_0 h1 { position:relative; z-index: 5; top: -10vh; font-size: 4rem; text-align: center;}
 .main_messge { opacity:0; display: flex; top: 35vh;  justify-content: center; align-items: center; height: 3em; font-size: 2.5rem; }
 .main_messge p { line-height: 1.2; font-weight: 900; text-align: center;}
@@ -42,6 +42,10 @@ p { line-height: 1.6; }
 
 .sticky_elem_canvas {top: 0; height: 100%; }
 .sticky_elem_canvas canvas { position: absolute; top: 50%; left: 50%; }
+
+.image-blend-canvas { background: #eee; }
+.image-blend-canvas.sticky_elem { position: fixed;  top: 0; z-index: 10;} 
+#scroll_section_3 { 	display: flex;	flex-direction: column;	align-items: center;}
 
 @media (min-width: 1024px) {
     #scroll_section_0 h1 { font-size: 9vw; }
